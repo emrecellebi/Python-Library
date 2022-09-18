@@ -25,3 +25,6 @@ list()                                  # Liste oluşturur.
 .endswith(prefix)                       # Dize verilen ek bitiyor ise true yoksa false döner.                                           örn: x.endswith("k")
 .endswith(prefix, 0, 12)                # Dize verilen ek, başlangıç ve bitiş belirtilerek bitiyor ise true yoksa false döner.          örn: x.endswith("türk", 0, 13)
 
+# !----------------> Input & Output <----------------!
+input("Please enter something")         # Sadece Interger data tipi okur
+raw_input("Please enter something")     # String data tipi okur
