@@ -9,7 +9,6 @@ subprocess.call(args)                  # Array olarak verilen bir komutları ça
 # !----------------> import popen2 <----------------!   # https://docs.python.org/2.7/library/popen2.html Deprecated since version 2.6
 
 # !----------------> File Object <----------------!  # https://docs.python.org/2.7/library/stdtypes.html#file-objects
-open(filename, mode)                    # Bir dosya oluşturur yada açar
 .write(strData)                         # Dosya içeriğine veri yazar. Dönüş değeri yoktur.
 .close()                                # Açık olan dosyayı kapatır. Dönüş değeri yoktur.
 .read()                                 # Dosya donuna kadar okur ve bir string olarak döner.
@@ -20,10 +19,6 @@ open(filename, mode)                    # Bir dosya oluşturur yada açar
 .readlines(sizehint)                    # Dosyayı belritilen size kadar oku ve liste olarak dönüşyapar.
 .seek(offset)                           # Dosya imlecinin konumunu ayarla
 .seek(offset, whence)                   # 
-
-# !----------------> Data Structures <----------------! # https://docs.python.org/2.7/tutorial/datastructures.html
-list()                                  # Liste oluşturur.
-.append(x)                              # Listenin sonuna bir öge ekler. Dönüş değeri yoktur                  örn: x.append("1")
 
 # !----------------> Mapping Types <----------------!  # https://docs.python.org/2/library/stdtypes.html#mapping-types-dict
 .items()                                # Dictionary için bir key, value listesi döner.
@@ -37,16 +32,22 @@ list()                                  # Liste oluşturur.
 .count(sub)                             # Dize içerisinde a karakterini sayar ve döner                                                  örn: x.count("M") 
 .count(sub, start, end)                 # Dize içerisinde a karakterini belirtilen başlangıç ve bitiş arasında sayar ve döner           örn: x.count("M", 0, 12) 
 
-# !----------------> Methods <----------------!
-input("Please enter something")         # Sadece Interger data tipi okur
-raw_input("Please enter something")     # String data tipi okur
-str()                                   # Verilen değeri string olarak döner.
-range(10)                               # Verilen değer arasında bir list oluşturur.
-range(2, 10)                            # Verilen iki değer arasında bir list oluşturur.
-range(2, 10, 5)                         # Verilen iki değer arasında 5 er olarak artırılmş bir list oluşturur.
-len()                                   # Uzunluk verir
+# !----------------> List Data Structures <----------------! # https://docs.python.org/2.7/tutorial/datastructures.html
+.append(x)                              # Listenin sonuna bir öge ekler. Dönüş değeri yoktur                  örn: x.append("1")
 
-
+# !----------------> Methods <----------------! # https://docs.python.org/2.7/library/functions.html
+open(filename, mode)                    # Bir dosya oluşturur yada açar
+input(prompt)                           # Sadece Interger data tipi okur
+raw_input(prompt)                       # String data tipi okur
+str(obj)                                # Verilen değeri string olarak döner.
+range(stop)                             # Verilen değer arasında bir list oluşturur.
+range(start, stop)                      # Verilen iki değer arasında bir list oluşturur.
+range(start, stop, step)                # Verilen iki değer arasında 5 er olarak artırılmş bir list oluşturur.
+len(s)                                  # Verilen nesnenin öge sayısını verir.
+type(obj)                               # Verline nesnenin tipini verir
+type(name, bases, dict)                 # 
+list()                                  # Liste oluşturur.
+list(iterable)                          # 
 
 
 
