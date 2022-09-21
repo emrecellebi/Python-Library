@@ -12,12 +12,22 @@ subprocess.call(args)                  # Array olarak verilen bir komutları ça
 open(filename, mode)                    # Bir dosya oluşturur yada açar
 .write(strData)                         # Dosya içeriğine veri yazar. Dönüş değeri yoktur.
 .close()                                # Açık olan dosyayı kapatır. Dönüş değeri yoktur.
+.read()                                 # Dosya donuna kadar okur ve bir string olarak döner.
+.read(size)                             # Verilen bayt kadar okur ve bir string olarak döner.
+.readline()                             # Dosyadan ilk statırı okur ve string olarak döner.
+.readline(size)                         # Verilen bayt kadar ilk statırı okur ve string olarak döner.
 .readlines()                            # Dosyayı sonuna kadar satır satır oku ve liste olarak dönüşyapar.
 .readlines(sizehint)                    # Dosyayı belritilen size kadar oku ve liste olarak dönüşyapar.
+.seek(offset)                           # Dosya imlecinin konumunu ayarla
+.seek(offset, whence)                   # 
 
 # !----------------> Data Structures <----------------! # https://docs.python.org/2.7/tutorial/datastructures.html
 list()                                  # Liste oluşturur.
 .append(x)                              # Listenin sonuna bir öge ekler. Dönüş değeri yoktur                  örn: x.append("1")
+
+# !----------------> Mapping Types <----------------!  # https://docs.python.org/2/library/stdtypes.html#mapping-types-dict
+.items()                                # Dictionary için bir key, value listesi döner.
+.iteritems()                            # Dictionary için bir key, value listesi döner.
 
 # !----------------> String Methods <----------------!  # https://docs.python.org/2.7/library/stdtypes.html#string-methods
 .startswith(prefix)                     # Dize verilen ek ile başlıyor ise true yoksa false döner.                                      örn: x.startswith("M")
@@ -52,6 +62,74 @@ len()                                   # Uzunluk verir
 
 
 
+
+# !----------------> Tuple Getting Lenght <----------------!
+class Base:
+    def __init__(self):
+        print(self.get_lenght(3, "This", "is", "a", "Cars"));
+    
+    def get_lenght(self, *items):
+        all_lenghts = [];
+        for item in items:
+            if(type(item) is int):
+                item = str(item);
+        
+            lenght = 0;
+            for character in item:
+                lenght += 1;
+            all_lenghts += [lenght];
+        return all_lenghts;
+
+# !----------------> Getting Lenght <----------------!
+class Base:
+    def __init__(self):
+        self.string = "Melek Şentürk";
+    
+    def get_lenght(self, data):
+        if(type(data) is int):
+            data = str(data);
+        
+        lenght = 0;
+        for i in data:
+            lenght += 1;
+        return lenght;
+
+# !----------------> File Read <----------------!
+class Base:
+    def __init__(self):
+        file_handle = open("file.txt", "r");
+        lines = file_handle.readlines();
+        for line in lines:
+            print(line);
+        file_handle.close();
+new_object = Base();
+
+# !----------------> File Write <----------------!
+class Base:
+    def __init__(self):
+        file_handle = open("file.txt", "w");
+        file_handle.write("Hello World!");
+        file_handle.close();
+new_object = Base();
+
+# !----------------> Dictionary Parameters <----------------!
+class Base:
+    def __init__(self, **book):
+        print(book);
+        for key, value in book.items():
+            print(str(key) + " " + str(value));
+new_object = Base(key_1 = 1, key_2 = 2);
+
+# !----------------> Tuple Parameters <----------------!
+class Base:
+    def __init__(self, name, *numbers):
+        self.numbers = numbers;
+    def print_out(self):
+        print(str(self.numbers) + "\n");
+        for everything in self.numbers:
+            print(everything);
+new_object = Base("Tuple", 1, 2, 3, 4, 5);
+new_object.print_out();
 
 # !----------------> Inheritance <----------------!
 class Mother:
