@@ -18,7 +18,6 @@ subprocess.call(args)                  # Array olarak verilen bir komutları ça
 .readlines()                            # Dosyayı sonuna kadar satır satır oku ve liste olarak dönüşyapar.
 .readlines(sizehint)                    # Dosyayı belritilen size kadar oku ve liste olarak dönüşyapar.
 .seek(offset)                           # Dosya imlecinin konumunu ayarla
-.seek(offset, whence)                   # 
 
 # !----------------> Mapping Types <----------------!  # https://docs.python.org/2/library/stdtypes.html#mapping-types-dict
 .items()                                # Dictionary için bir key, value listesi döner.
@@ -45,9 +44,11 @@ range(start, stop)                      # Verilen iki değer arasında bir list 
 range(start, stop, step)                # Verilen iki değer arasında 5 er olarak artırılmş bir list oluşturur.
 len(s)                                  # Verilen nesnenin öge sayısını verir.
 type(obj)                               # Verline nesnenin tipini verir
-type(name, bases, dict)                 # 
 list()                                  # Liste oluşturur.
-list(iterable)                          # 
+min(iterable)                           # Bir liste içerisindeki en küçük sayı değerini döner.
+max(iterable)                           # Bir liste içerisindeki en büyük sayı değerini döner.
+pow(x, y)                               # x değerinin y kuvvettini döner.
+abs(x)                                  # Bir sayının mutlak değerini döner.
 
 
 
@@ -59,10 +60,77 @@ list(iterable)                          #
 
 
 
+# !----------------> Getting Range <----------------!
+class Base:
+    def __init__(self):
+        print(self.range_of(10, 20, 3));
+        print(list(range(10, 20, 3)));
+    def range_of(self, start, stop = 0, step = 1):
+        returned_list = [];
+        if(stop == 0):
+            stop = start;
+            start = 0;
+        while(start < stop):
+            returned_list += [start];
+            start += step;
+        return returned_list;
 
+# !----------------> Getting Absolute <----------------!
+class Base:
+    def __init__(self):
+        print(self.absolute(-25));
+        print(abs(-25));
+    def absolute(self, number):
+        if(type(number) == str):
+            number = int(number);
+        if(number < 0):
+            number *= -1;
+        return number;
 
+# !----------------> Getting Power <----------------!
+class Base:
+    def __init__(self):
+        print(self.power(2, 4));
+        print(pow(2, 4));
+    def power(self, base, power):
+        if(power == 0):
+            return 1;
+        product = base;
+        for i in range(1, power):
+            product *= base;
+        return product;
 
+# !----------------> Getting Maximum <----------------!
+class Base:
+    def __init__(self):
+        self.numbers = [2, 100, -3, 429, 0];
+        self.list_of_numbers = [200, 3000, 76373, 9, 543];
+        print(max(self.numbers));
+        print(self.get_maximum(self.list_of_numbers));
+    def get_maximum(self, array):
+        for item in array:
+            if(item == array[0]):
+                maximum = item;
+            else:
+                if(item > maximum):
+                    maximum = item;
+        return maximum;
 
+# !----------------> Getting Minimum <----------------!
+class Base:
+    def __init__(self):
+        self.numbers = [2, 100, -3, 429, 0];
+        self.list_of_numbers = [200, 3000, 76373, 9, 543];
+        print(min(self.numbers));
+        print(self.get_minimum(self.list_of_numbers));
+    def get_minimum(self, array):
+        for element in array:
+            if(element == array[0]):
+                minimum = element;
+            else:
+                if(element < minimum):
+                    minimum = element;
+        return minimum;
 
 # !----------------> Tuple Getting Lenght <----------------!
 class Base:
