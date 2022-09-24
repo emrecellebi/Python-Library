@@ -25,6 +25,10 @@ subprocess.call(args)                  # Array olarak verilen bir komutları ça
 
 # !----------------> String Methods <----------------!  # https://docs.python.org/2.7/library/stdtypes.html#string-methods
 .ascii_letters                          # Alfabetik olan büyük küçük karakterlerin tanımı.
+.ascii_lowercase                        # Alfabetik olan küçük karakterlerin tanımı.
+.ascii_uppercase                        # Alfabetik olan büyük karakterlerin tanımı.
+.digits                                 # Tüm rakamları verir.
+.whitespace                             # Tüm boşluk karakterleri
 .capitalize()                           # Dizenin ilk karakterini büyük geri kalanı küçük olarak döner.
 .center(width)                          # Belitilen değer kadar boşluk bırakır.
 .center(width, fillchar)                # Belitilen değer ve karakter kadar karakteri doldurur.
@@ -37,6 +41,13 @@ subprocess.call(args)                  # Array olarak verilen bir komutları ça
 .find(sub)                              # Dize içerisinde belitilen kelimeyi sayar.
 .find(sub, start, end)                  # Dize içerisinde Start ve end arasındaki belitilen kelimeyi sayar.
 .isalpha()                              # Dizedeki tüm karakterler alfabetikse ture olarak döner.
+.isdigit()                              # Dizedeki tüm karakterler rakamsa ture olarak döner.
+.islower()                              # Dizideki tüm karaktarler küçük ise ture olarak döner.
+.isupper()                              # Dizideki tüm karaktarler büyük ise ture olarak döner.
+.isspace()                              # Dizede yalnızca boşluk karakterleri varsa ture olarak döner.
+.join(iterable)                         # Verilen Dizeyi birleiştirmeisi ile bir dize döner.
+.ljust(width)                           # Verilen width kadar sağdan boşluk bırakır
+.ljust(width, fillchar)                 # Verilen width kadar sağdan fillchar ile doldurur
 
 # !----------------> List Data Structures <----------------! # https://docs.python.org/2.7/tutorial/datastructures.html
 .append(x)                              # Listenin sonuna bir öge ekler. Dönüş değeri yoktur                  örn: x.append("1")
