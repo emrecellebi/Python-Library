@@ -48,6 +48,17 @@ subprocess.call(args)                  # Array olarak verilen bir komutları ça
 .join(iterable)                         # Verilen Dizeyi birleiştirmeisi ile bir dize döner.
 .ljust(width)                           # Verilen width kadar sağdan boşluk bırakır
 .ljust(width, fillchar)                 # Verilen width kadar sağdan fillchar ile doldurur
+.lower()                                # Tüm Büyük karakterleri küçük karakter olarak dönüştürür.
+.lstrip(chars)                          # Dizenin başında verilen karakterlerden eşleşen varsa onları siler.
+.replace(old, new)                      # Dizenin içerisinde var olan bir kelimeyi yenisi ile değiştirir.
+.replace(old, new, count)               # Dizenin içerisinde var olan bir kelimeyi yenisi ile değiştirir. Belirtilen count kadar değiştirir.
+.rfind(sub)                             # Dizin içerisin sağdan arama işlemi yapar.
+.rfind(sub, start, end)                 # Dizin içerisin Başlangıç ve bitiş rasında sağdan arama işlemi yapar.
+.rjust(width)                           # Verilen width kadar soldan boşluk bırakır
+.rjust(width, fillchar)                 # Verilen width kadar soldan fillchar ile doldurur
+.split(sep)                             # Verilen kelime ile böl array olarak dönüş yapar.
+.split(sep, maxsplit)                   # Verilen kelime ile maxsplit kadar böl array olarak dönüş yapar.
+.rstrip(chars)                          # Dizenin sonundan verilen karakterlerden eşleşen varsa onları siler.
 
 # !----------------> List Data Structures <----------------! # https://docs.python.org/2.7/tutorial/datastructures.html
 .append(x)                              # Listenin sonuna bir öge ekler. Dönüş değeri yoktur                  örn: x.append("1")
