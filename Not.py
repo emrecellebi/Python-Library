@@ -59,9 +59,17 @@ subprocess.call(args)                  # Array olarak verilen bir komutları ça
 .split(sep)                             # Verilen kelime ile böl array olarak dönüş yapar.
 .split(sep, maxsplit)                   # Verilen kelime ile maxsplit kadar böl array olarak dönüş yapar.
 .rstrip(chars)                          # Dizenin sonundan verilen karakterlerden eşleşen varsa onları siler.
+.splitlines()                           # Dizedeki new linelardan bölerek bir array döner.
+.splitlines(keepends)                   # Dizedeki new linelardan bölerek keepends True olarak verilirse new linelarıda ekleyip bir array döner.
+.swapcase()                             # Dizenin içerisinde bğyğk harfli karakter var ise küçük harfe çevirir.
+.upper()                                # Dize içerisindeki tüm karaktarleri büyük yapar.
+.zfill(width)                           # Dize içerisine sıfırlar doldurur.
 
 # !----------------> List Data Structures <----------------! # https://docs.python.org/2.7/tutorial/datastructures.html
 .append(x)                              # Listenin sonuna bir öge ekler. Dönüş değeri yoktur                  örn: x.append("1")
+.count(x)                               # Liste içerisin x değerinin sayısını döner.
+.index(x)                               # Liste içerisinde x değerinde bir değer varsa onun indexini döner.
+.insert(i, x)                           # Liste içerisine belitilen indexe insert eder.
 
 # !----------------> Methods <----------------! # https://docs.python.org/2.7/library/functions.html
 open(filename, mode)                    # Bir dosya oluşturur yada açar
@@ -148,7 +156,7 @@ in          --> # Içinde
 \n          --> # Yeni satır
 \t          --> # Tab boşluk
 \\          --> # Backslah
-\r          --> # 
+\r          --> # Yenileme
 
 # !----------------> Operating on Data <----------------!
 Addition            ---> 2 + 4 = 6
