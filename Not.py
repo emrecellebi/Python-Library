@@ -70,6 +70,8 @@ subprocess.call(args)                  # Array olarak verilen bir komutları ça
 .count(x)                               # Liste içerisin x değerinin sayısını döner.
 .index(x)                               # Liste içerisinde x değerinde bir değer varsa onun indexini döner.
 .insert(i, x)                           # Liste içerisine belitilen indexe insert eder.
+.remove(x)                              # Liste içerisinde x olan değri siler.
+.reverse()                              # Liste ögelerini tersine çevirir.
 
 # !----------------> Methods <----------------! # https://docs.python.org/2.7/library/functions.html
 open(filename, mode)                    # Bir dosya oluşturur yada açar
