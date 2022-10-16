@@ -9,6 +9,7 @@ colorama.Fore.RED                # Foregorund Kırmızı
 colorama.Fore.GREEN              # Foregorund Yeşil
 colorama.Fore.BLUE               # Foregorund Mavi
 colorama.Fore.MAGENTA            # Foregorund Magenta
+colorama.Fore.YELLOW             # Foregorund Sarı
 colorama.Fore.CYAN               # Foregorund Cyan
 colorama.Fore.WHITE              # Foregorund Beyaz
 colorama.Fore.RESET              # Foregorund Reset
@@ -18,6 +19,7 @@ colorama.Back.RED                # Backgorund Kırmızı
 colorama.Back.GREEN              # Backgorund Yeşil
 colorama.Back.BLUE               # Backgorund Mavi
 colorama.Back.MAGENTA            # Backgorund Magenta
+colorama.Back.YELLOW             # Backgorund Sarı
 colorama.Back.CYAN               # Backgorund Cyan
 colorama.Back.WHITE              # Backgorund Beyaz
 colorama.Back.RESET              # Backgorund Reset
