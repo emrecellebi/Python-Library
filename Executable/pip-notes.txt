@@ -1,0 +1,8 @@
+# !----------------> pip <----------------!
+pip
+    download <package>              # Pakati indir.
+    install <package>              	# Pakati yükler
+    list                            # Yüklü paketeleri göster.
+
+# !----------------> Packages <----------------!
+colorama			# https://pypi.org/project/colorama/
