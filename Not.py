@@ -53,6 +53,7 @@ int(x)                                  # Bir string tipinde tam sayı değerini
 chr(i)                                  # Berilen sayı değerinin ASCII kod karşılığını dönderir.
 exit()                                  # Çıkış
 copyright                               # Telif hakkı
+dir(obj)                                # Modüller içindeki kullanılan methodların isimlerini döner (Return Type List)
 
 
 
