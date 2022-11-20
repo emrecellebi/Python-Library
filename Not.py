@@ -3,9 +3,6 @@ os.path.isdir(path)                     # Verilen yol mevcut ise true olarak dö
 os.chdir(path)                          # Geçerli çalışma alanını verilen yol ile değiştir. Dönüş değeri yoktur
 os.listdir(path)                        # Verilen yol içerisindekileri liste olarak döner.
 
-# !----------------> import subprocess <----------------!   # https://docs.python.org/2.7/library/subprocess.html
-subprocess.call(args)                  # Array olarak verilen bir komutları çalıştırır dönüş olarak int değeri döner.
-
 # !----------------> import popen2 <----------------!   # https://docs.python.org/2.7/library/popen2.html Deprecated since version 2.6
 
 # !----------------> File Object <----------------!  # https://docs.python.org/2.7/library/stdtypes.html#file-objects
@@ -54,9 +51,6 @@ chr(i)                                  # Berilen sayı değerinin ASCII kod kar
 exit()                                  # Çıkış
 copyright                               # Telif hakkı
 dir(obj)                                # Modüller içindeki kullanılan methodların isimlerini döner (Return Type List)
-
-
-
 
 # !----------------> List <----------------!
 new_list = [49, 3.14, 'Joke']       # list Tanımlanır

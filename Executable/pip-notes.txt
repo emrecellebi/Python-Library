@@ -6,3 +6,5 @@ pip
 
 # !----------------> Packages <----------------!
 colorama			# https://pypi.org/project/colorama/
+pyfiglet			# https://pypi.org/project/pyfiglet/
+uni-curses			# dll hatasında PDcurses dll yüklenir.
