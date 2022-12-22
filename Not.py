@@ -48,6 +48,7 @@ sorted(iterable)                        # Yeni bir sıralanmış liste döner.
 str(obj)                                # Verilen değeri string olarak döner.
 int(x)                                  # Bir string tipinde tam sayı değerini int tipne dönüştür.
 chr(i)                                  # Berilen sayı değerinin ASCII kod karşılığını dönderir.
+ord(i)                                  # Berilen char değerinin ASCII kod karşılığındaki sayısını dönderir.
 exit()                                  # Çıkış
 copyright                               # Telif hakkı
 dir(obj)                                # Modüller içindeki kullanılan methodların isimlerini döner (Return Type List)
