@@ -1,0 +1,12 @@
+Python Challenge Site: http://www.pythonchallenge.com
+
+Challenge: 0
+http://www.pythonchallenge.com/pc/def/0.html
+Hint: URL adresini değiştimeyi deneyin
+
+Cevab:
+http://www.pythonchallenge.com/pc/def/1.html
+274877906944 = 2**38
+http://www.pythonchallenge.com/pc/def/274877906944.html
+
+Cevab bulunduğunda ikinci Challenge geçiş yapar.

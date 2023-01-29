@@ -1,0 +1,10 @@
+Python Challenge Site: http://www.pythonchallenge.com
+
+Challenge: 1
+http://www.pythonchallenge.com/pc/def/map.html
+Hint: Herkes bunu çözmeden önce iki kez düşünür.
+
+Cevab:
+Verilen karmaşık text datasını python ile yerdeğiştirme yapılır.
+
+Henüz Bitiremedik

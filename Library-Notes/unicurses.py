@@ -1,4 +1,4 @@
-# !----------------> import urllib <----------------!
+# !----------------> import unicurses <----------------!
 initscr()                       # Ekranı başlat
 endwin()                        # Ekranı bitir.
 getch()                         # Kullanıcıdan input alır.
@@ -27,4 +27,7 @@ doupdate()                      #
 bottom_panel(panel)             # Paneli aşağıya hizalar.
 wbkgd(scr, str)                 # Verilen pencere içerisini doldurur.
 has_colors()                    # 
+hline(str, int)                 # Verilen karakter ile yatayda line çizer.
+vline(str, int)                 # Verilen karakter ile dikeyde line çizer.
+
 
