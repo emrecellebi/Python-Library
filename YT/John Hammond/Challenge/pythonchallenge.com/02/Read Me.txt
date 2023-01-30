@@ -1,0 +1,10 @@
+Python Challenge Site: http://www.pythonchallenge.com
+
+Challenge: 2
+http://www.pythonchallenge.com/pc/def/ocr.html
+Hint: karakterleri tanır. belki kitapta vardır, ancak BELKİ sayfa kaynağındadırlar.
+
+Cevab:
+http://www.pythonchallenge.com/pc/def/equality.html
+Karakterleri bir birleri ile toplayıp içerisindeki gizli harfler bulunur.
+bir defa kullanılmış harfler vir array içerisine toplanır

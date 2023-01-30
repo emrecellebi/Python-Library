@@ -5,6 +5,8 @@ http://www.pythonchallenge.com/pc/def/map.html
 Hint: Herkes bunu çözmeden önce iki kez düşünür.
 
 Cevab:
-Verilen karmaşık text datasını python ile yerdeğiştirme yapılır.
+http://www.pythonchallenge.com/pc/def/ocr.html
 
-Henüz Bitiremedik
+Verilen şifreli text datasını ascii karatelerinin 2 ile shift edilmesi sonucu datayı çöze biliyoruz.
+Ve Cözünen metinde aynı işlemi url içinde yapılmasını söylüyor map kelimesini sifreliyerek url üzerinden 
+yazdığımız da bir sonraki Challenge geçebiliyoruz.
