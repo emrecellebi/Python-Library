@@ -1,0 +1,12 @@
+Python Challenge Site: http://www.pythonchallenge.com
+
+Challenge: 3
+http://www.pythonchallenge.com/pc/def/equality.html
+Hint: Her bir yanında TAM OLARAK üç büyük korumayla çevrili küçük bir mektup.
+
+Cevap:
+http://www.pythonchallenge.com/pc/def/linkedlist.html
+http://www.pythonchallenge.com/pc/def/linkedlist.php
+
+Cevap olarak linkedlist çıkıyor bunu link üzerinde denediğimiszde ise linkedlist.php
+çıkıyor ekranda bizde uzantıyı php yaptığımız da ise bir sonraki challenge geçmiş oluyoruz.

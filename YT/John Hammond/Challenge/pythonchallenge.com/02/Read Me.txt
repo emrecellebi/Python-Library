@@ -7,4 +7,4 @@ Hint: karakterleri tanır. belki kitapta vardır, ancak BELKİ sayfa kaynağınd
 Cevab:
 http://www.pythonchallenge.com/pc/def/equality.html
 Karakterleri bir birleri ile toplayıp içerisindeki gizli harfler bulunur.
-bir defa kullanılmış harfler vir array içerisine toplanır
+bir defa kullanılmış harfler bir array içerisine toplanır
