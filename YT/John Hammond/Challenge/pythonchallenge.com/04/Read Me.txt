@@ -5,3 +5,5 @@ http://www.pythonchallenge.com/pc/def/linkedlist.php
 Hint: 
 
 Cevap:
+http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing=12345
+içerik içerisinden gelen sayıları pars edip peak.html gelene kadar devam edilir.

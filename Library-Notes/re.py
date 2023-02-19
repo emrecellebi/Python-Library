@@ -6,6 +6,8 @@ re.MULTILINE                                       # Belirtildiğinde, kalıp ka
 
 re.search(pattern, string): MatchObject            # Verilen Pattern ve String ile bir arama yapar karşılık Match değerini döner. Aksi halde None olarak döner.
 re.search(pattern, string, flags): MatchObject     # Verilen Pattern ve String ile bir arama yapar karşılık Match değerini döner. Aksi halde None olarak döner. Flags kullanılır.
+re.findall(pattern, string): MatchObject           # Bulunan eşleşmeyi liste olarak döner.
+re.findall(pattern, string, flags): MatchObject    # Bulunan eşleşmeyi liste olarak döner.
 
 re.MatchObject()                                   # 
 .start()                                           # Başlangıç indexi
