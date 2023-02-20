@@ -8,6 +8,7 @@ re.search(pattern, string): MatchObject            # Verilen Pattern ve String i
 re.search(pattern, string, flags): MatchObject     # Verilen Pattern ve String ile bir arama yapar karşılık Match değerini döner. Aksi halde None olarak döner. Flags kullanılır.
 re.findall(pattern, string): MatchObject           # Bulunan eşleşmeyi liste olarak döner.
 re.findall(pattern, string, flags): MatchObject    # Bulunan eşleşmeyi liste olarak döner.
+re.compile(pattern, flags): MatchObject            # 
 
 re.MatchObject()                                   # 
 .start()                                           # Başlangıç indexi
