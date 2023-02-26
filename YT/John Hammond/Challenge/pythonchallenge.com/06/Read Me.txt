@@ -1,0 +1,13 @@
+Python Challenge Site: http://www.pythonchallenge.com
+
+Challenge: 6
+http://www.pythonchallenge.com/pc/def/channel.html
+Hint: 
+
+Cevap:
+Channel.zip dosyasını indirim zipfile olarak açıp içindeki yorumları okuyup
+bir listeye atıyoruz bunu for ile donüp ekranda yazıyoruz 
+HOCKEY adan bir kelime çıyor fakata bu kelime vir takım harflerden oluşuyor
+bu da OXYGEN kelimesini çıkarıyor.
+
+http://www.pythonchallenge.com/pc/def/oxygen.html

@@ -1,7 +1,11 @@
 Python Challenge Site: http://www.pythonchallenge.com
 
-Challenge: 4
+Challenge: 5
 http://www.pythonchallenge.com/pc/def/peak.html
 Hint: 
 
 Cevap:
+Sayfa kaynağındaki banner.p dosyasını pickle modülü ile okutup
+arraylar içinde dönüp # sembolünden bir kelime yazdıdık
+
+http://www.pythonchallenge.com/pc/def/channel.html

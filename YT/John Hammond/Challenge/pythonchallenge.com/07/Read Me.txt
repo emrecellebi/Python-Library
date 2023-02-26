@@ -1,0 +1,10 @@
+Python Challenge Site: http://www.pythonchallenge.com
+
+Challenge: 7
+http://www.pythonchallenge.com/pc/def/oxygen.html
+Hint: 
+
+Cevap:
+oxygen.png içerisindeki pixelleri kullanarak cevapları elde ettik.
+
+http://www.pythonchallenge.com/pc/def/integrity.html

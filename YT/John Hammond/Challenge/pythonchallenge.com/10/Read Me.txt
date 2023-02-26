@@ -1,0 +1,7 @@
+Python Challenge Site: http://www.pythonchallenge.com
+
+Challenge: 10
+http://www.pythonchallenge.com/pc/return/bull.html
+Hint: 
+
+Cevap:

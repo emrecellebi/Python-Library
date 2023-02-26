@@ -1,0 +1,11 @@
+Python Challenge Site: http://www.pythonchallenge.com
+
+Challenge: 8
+http://www.pythonchallenge.com/pc/def/integrity.html
+Hint: 
+
+Cevap:
+Html içerisin deki un ve pw bz2 modülünü kullanarak 
+decompress ettik girişi sağladık
+
+http://www.pythonchallenge.com/pc/return/good.html

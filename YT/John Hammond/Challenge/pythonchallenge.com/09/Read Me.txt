@@ -1,0 +1,12 @@
+Python Challenge Site: http://www.pythonchallenge.com
+
+Challenge: 9
+http://www.pythonchallenge.com/pc/return/good.html
+Hint: 
+
+Cevap:
+Noktaları birlestir adında bir challenge verilen kordinatları
+kullanarak bir image oluşturduk içerisinden bir hayvan resmi
+çıtı Bull(Öküz)
+
+http://www.pythonchallenge.com/pc/return/bull.html
