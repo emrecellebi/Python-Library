@@ -34,6 +34,7 @@ Dosyalar hakkında bilgi ala bilmek için kullanılır.
 | -t | Son Değiştirilmiş zamana göre sırala önce en yenisi. |
 | --help | Yardım dökümanını verir. |
 | --version | Verisiyonu verir. |
+
 Ayrıntılı listeleme yaptığımız zaman bazı kısaltmaların olduğunu görürüz.
 
 drwx — — — 35 ubuntu ubuntu 1120 Dec 27 19:54 Desktop
