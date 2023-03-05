@@ -37,11 +37,11 @@ Dosyalar hakkında bilgi ala bilmek için kullanılır.
 
 Ayrıntılı listeleme yaptığımız zaman bazı kısaltmaların olduğunu görürüz.
 
+```
 drwx — — — 35 ubuntu ubuntu 1120 Dec 27 19:54 Desktop
-
 -rwxrw-r — 65 ubuntu ubuntu 1120 Dec 28 18:36 test.txt
-
 lrwxr-x — — 65 ubuntu ubuntu 1120 Dec 28 18:36 file.lnk
+```
 
 | Komut | Açıklama |
 | -------- | -------- |
