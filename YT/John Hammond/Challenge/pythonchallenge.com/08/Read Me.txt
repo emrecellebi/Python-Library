@@ -7,5 +7,7 @@ Hint:
 Cevap:
 Html içerisin deki un ve pw bz2 modülünü kullanarak 
 decompress ettik girişi sağladık
+un: huge
+ps: file
 
 http://www.pythonchallenge.com/pc/return/good.html

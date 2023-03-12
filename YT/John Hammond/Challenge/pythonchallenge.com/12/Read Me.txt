@@ -1,0 +1,8 @@
+Python Challenge Site: http://www.pythonchallenge.com
+
+Challenge: 12
+http://www.pythonchallenge.com/pc/return/evil.html
+Hint: 
+
+Cevap:
+http://www.pythonchallenge.com/pc/return/disproportional.html

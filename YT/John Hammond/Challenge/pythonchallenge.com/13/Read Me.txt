@@ -1,0 +1,8 @@
+Python Challenge Site: http://www.pythonchallenge.com
+
+Challenge: 13
+http://www.pythonchallenge.com/pc/return/disproportional.html
+Hint: phone that evil
+
+Cevap:
+http://www.pythonchallenge.com/pc/return/italy.html

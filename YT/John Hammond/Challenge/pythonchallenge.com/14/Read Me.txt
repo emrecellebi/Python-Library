@@ -1,0 +1,9 @@
+Python Challenge Site: http://www.pythonchallenge.com
+
+Challenge: 14
+http://www.pythonchallenge.com/pc/return/italy.html
+Hint: 
+
+Cevap:
+http://www.pythonchallenge.com/pc/return/uzi.html
+http://www.pythonchallenge.com/pc/return/cat.html
