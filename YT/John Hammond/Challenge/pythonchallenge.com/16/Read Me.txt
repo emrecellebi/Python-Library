@@ -5,3 +5,4 @@ http://www.pythonchallenge.com/pc/return/mozart.html
 Hint: 
 
 Cevap:
+http://www.pythonchallenge.com/pc/return/romance.html

@@ -29,6 +29,9 @@ os.listdir(path)                        # Verilen yol içerisindekileri liste ol
 .remove(x)                              # Liste içerisinde x olan değri siler.
 .reverse()                              # Liste ögelerini tersine çevirir.
 
+# !----------------> Inline String <----------------!
+.format(objects)                        # belitrilen string içerisinde {} içerisine sırasıyla ekleme yapar.
+
 # !----------------> Methods <----------------! # https://docs.python.org/2.7/library/functions.html
 open(filename, mode)                    # Bir dosya oluşturur yada açar
 input(prompt)                           # Sadece Interger data tipi okur
@@ -52,6 +55,7 @@ ord(i)                                  # Berilen char değerinin ASCII kod kar�
 exit()                                  # Çıkış
 copyright                               # Telif hakkı
 dir(obj)                                # Modüller içindeki kullanılan methodların isimlerini döner (Return Type List)
+id(obj)                                 # vereilen değerin ram deki adresini verir.
 
 # !----------------> List <----------------!
 new_list = [49, 3.14, 'Joke']       # list Tanımlanır
