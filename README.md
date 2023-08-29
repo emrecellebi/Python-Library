@@ -1,7 +1,7 @@
 # Python Library
 
 ## Python Temel
-- [Temel Başlangıç](lesson_1.md)
+- [Temel Başlangıç](lessons.md)
 
 ## Python Global Methods
 - [print](Library/default/print.md)
