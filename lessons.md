@@ -18,7 +18,7 @@ Python dilinde iki diziyi bir leş tirmek için `+` karakteri kullanılır.
 "Concat" + "enate";
 ```
 
-Paython ile Strinlerin elemanlarına erişim sağlamak. Stringler de bir array olarak bilinir.
+Python ile Strinlerin elemanlarına erişim sağlamak. Stringler de bir array olarak bilinir.
 
 ```python
 string = "Data type is string array"
@@ -34,3 +34,38 @@ string[-1:]         # Sondan eksi bir karakteri verir.
 string[:-1]         # Baştan eksi bir yapılırsa tüm elemanlar verir.
 ```
 
+## Aritmatik Operatorler
+Pyhton ile aritmatik işlemler.
+
+```python
+num1 = 2 + 4			# Addition
+num2 = 6 - 4			# Subraction
+num3 = 3 * 3			# Multiplication
+num4 = 10 / 2			# Divition
+num5 = 10 % 3			# Modules
+num6 = 2 ** 3			# Exponent
+num7 = 8 // 3			# Floor Divition
+```
+
+## Karşılaştırma Operatorleri
+Python ile karşılaştırma operatörleri.
+
+```python
+==          # Equal
+!=          # Not Equal
+<           # Less than
+>           # Greater than
+<=          # Less than or equal
+>=          # Greater than or equal
+is          # The same object as
+in          # Içinde
+```
+
+## Mantıksal Operatorler
+Python ile mantıksal operatörleri
+
+```python
+and         # Her iki şart gerçekleşir ise True döner.
+or          # Her iki Şart dan biri gerçekleşir ise True döner
+not         # Gerçekleşen şartın tam tersini alır.
+```

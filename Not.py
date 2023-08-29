@@ -44,7 +44,6 @@ sum(iterable)                           # Bir ögenin ögelerinin toplamını d�
 sorted(iterable)                        # Yeni bir sıralanmış liste döner.
 str(obj)                                # Verilen değeri string olarak döner.
 chr(i)                                  # Berilen sayı değerinin ASCII kod karşılığını dönderir.
-ord(i)                                  # Berilen char değerinin ASCII kod karşılığındaki sayısını dönderir.
 exit()                                  # Çıkış
 copyright                               # Telif hakkı
 dir(obj)                                # Modüller içindeki kullanılan methodların isimlerini döner (Return Type List)
@@ -82,18 +81,7 @@ else:
     print("Not Equalse")
 
 # !----------------> Logical Opertators <----------------!
-and         --> # Her iki şart gerçekleşir ise True döner.
-or          --> # Her iki Şart dan biri gerçekleşir ise True döner
-not         --> # Gerçekleşen şartın tam tersini alır.
 
-# !----------------> Opertators <----------------!
-==          --> # Equal
-<           --> # Less than
->           --> # Greater than
-<=          --> # Less than or equal
->=          --> # Greater than or equal
-is          --> # The same object as
-in          --> # Içinde 
 
 # !----------------> Escape Characters <----------------!
 \n          --> # Yeni satır
@@ -101,18 +89,4 @@ in          --> # Içinde
 \\          --> # Backslah
 \r          --> # Yenileme
 
-# !----------------> Operating on Data <----------------!
-Addition            ---> 2 + 4 = 6
-Subraction          ---> 6 - 4 = 2
-Multiplication      ---> 3 * 3 = 9
-Divition            ---> 10 / 2 = 5
-Modules             ---> 10 % 3 = 1
-Exponent            ---> 2 ** 3 = 8
-Floor Divition      ---> 8 // 3 = 2
-
-# !----------------> Data Types <----------------!
-Interger    ---> -3, -2, -1, 0, 1, 2, 3
-Floats      ---> -3.14, -1.2, 0.1442, 8.91
-Booleans    ---> True = 1 or False = 0
-Strings     ---> "Hello World!", 'Hello World!'
-Characters  ---> 'a', 'b', 'c', 'd', 'e'
+https://gelecegiyazanlar.turkcell.com.tr/konu/egitim/python-201/tek-terimli-operatorler

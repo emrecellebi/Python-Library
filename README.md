@@ -1,7 +1,7 @@
 # Python Library
 
-## Python Dersleri
-- [Ders 1](Lessons/lesson_1.md)
+## Python Temel
+- [Temel Başlangıç](lesson_1.md)
 
 ## Python Global Methods
 - [print](Library/default/print.md)
@@ -12,6 +12,10 @@
 - [int](Library/default/int.md)
 - [float](Library/default/float.md)
 - [input](Library/default/input.md)
+- [ord](Library/default/ord.md)
+- [lower](Library/default/lower.md)
+- [upper](Library/default/upper.md)
+- [bool](Library/default/bool.md)
 
 ## Python sys
 - [getsizeof](Library/sys/getsizeof.md)
