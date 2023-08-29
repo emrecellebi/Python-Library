@@ -29,18 +29,12 @@ os.listdir(path)                        # Verilen yol içerisindekileri liste ol
 .remove(x)                              # Liste içerisinde x olan değri siler.
 .reverse()                              # Liste ögelerini tersine çevirir.
 
-# !----------------> Inline String <----------------!
-.format(objects)                        # belitrilen string içerisinde {} içerisine sırasıyla ekleme yapar.
-
 # !----------------> Methods <----------------! # https://docs.python.org/2.7/library/functions.html
 open(filename, mode)                    # Bir dosya oluşturur yada açar
-input(prompt)                           # Sadece Interger data tipi okur
 raw_input(prompt)                       # String data tipi okur
 range(stop)                             # Verilen değer arasında bir list oluşturur.
 range(start, stop)                      # Verilen iki değer arasında bir list oluşturur.
 range(start, stop, step)                # Verilen iki değer arasında 5 er olarak artırılmş bir list oluşturur.
-len(s)                                  # Verilen nesnenin öge sayısını verir.
-type(obj)                               # Verline nesnenin tipini verir
 list()                                  # Liste oluşturur.
 min(iterable)                           # Bir liste içerisindeki en küçük sayı değerini döner.
 max(iterable)                           # Bir liste içerisindeki en büyük sayı değerini döner.
@@ -49,28 +43,15 @@ abs(x)                                  # Bir sayının mutlak değerini döner.
 sum(iterable)                           # Bir ögenin ögelerinin toplamını döner.
 sorted(iterable)                        # Yeni bir sıralanmış liste döner.
 str(obj)                                # Verilen değeri string olarak döner.
-int(x)                                  # Bir string tipinde tam sayı değerini int tipne dönüştür.
 chr(i)                                  # Berilen sayı değerinin ASCII kod karşılığını dönderir.
 ord(i)                                  # Berilen char değerinin ASCII kod karşılığındaki sayısını dönderir.
 exit()                                  # Çıkış
 copyright                               # Telif hakkı
 dir(obj)                                # Modüller içindeki kullanılan methodların isimlerini döner (Return Type List)
-id(obj)                                 # vereilen değerin ram deki adresini verir.
 
 # !----------------> List <----------------!
 new_list = [49, 3.14, 'Joke']       # list Tanımlanır
 new_list[0] = 50                    # listenin ilk elemenına değer atanır.
-
-string = "Data type is string array"
-string[6]           # Altıncı elemenı verir.
-string[5:8]         # Beş ile Sekiz arasındaki elemanları verir.
-string[:]           # Tüm elemanları verir.
-string[5:]          # Beşinci elemandan başlayıp son elemana kadar verir.
-string[:10]         # Baştan başlayıp onuncu elemana kadar verir.
-string[::2]         # Baştan başlayıp ikişer olarak artırarak bütün elemanları verir.
-string[0:19:2]      # Sıfırdan başlayıp on dokuza kadar ikişer olarak artırarak elemanları verir.
-string[-1:]         # Sondan eksi bir karakteri verir.
-string[:-1]         # Baştan eksi bir yapılırsa tüm elemanlar verir.
 
 dictionary = {"key_1": 1, "key_2": 2, "key_3": 3}
 
