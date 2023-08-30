@@ -14,7 +14,7 @@
 	- [lower](Library/default/lower.md)
 	- [upper](Library/default/upper.md)
 
--Other method
+- Other method
 	- [print](Library/default/print.md)
 	- [type](Library/default/type.md)
 	- [id](Library/default/id.md)
