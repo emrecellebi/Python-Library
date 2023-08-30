@@ -79,14 +79,3 @@ elif(x == 15):
     print("Equalse")
 else:
     print("Not Equalse")
-
-# !----------------> Logical Opertators <----------------!
-
-
-# !----------------> Escape Characters <----------------!
-\n          --> # Yeni satır
-\t          --> # Tab boşluk
-\\          --> # Backslah
-\r          --> # Yenileme
-
-https://gelecegiyazanlar.turkcell.com.tr/konu/egitim/python-201/tek-terimli-operatorler

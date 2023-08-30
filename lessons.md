@@ -69,3 +69,58 @@ and         # Her iki şart gerçekleşir ise True döner.
 or          # Her iki Şart dan biri gerçekleşir ise True döner
 not         # Gerçekleşen şartın tam tersini alır.
 ```
+
+## Tek Terimli Operatorler
+
+```python
++			# Pozitif operatörü
+-			# Negetif operatörü
+~			# Tümleme operatörü (Değili anlamınada geliyor.)
+
+t = 5;
+m = ~t		# 0101 		işaret bitleri 0 pozitif 1 negatif değerler alır. Her bir sayının başında bir işaret biti vardır.
+
+# Bit bazın da değilini almak nasıl olur.
+# (0101)' = 1010 olarak değili alınır.
+```
+
+## Benzerlik Operatorleri
+
+```python
+is				# Tip ve değer eşitliğini sağlar.
+is not			# Tip ve değer eşitliğinin tersini sağlar.
+```
+
+## Bitwise Operatorleri
+Pyhton ile ikilik tabanda karşılaştırma operatörleri
+
+```python
+&		# Bitwise and
+|		# Bitwise or
+~		# Bitwise not (Complement - Tümleyeni)
+^		# Bitwise xor
+>>		# Bitwise right shift
+<<		# Bitwise left shift
+
+# Yapılacak işlem bit bazında karşılıklarına bakarız.
+x = 3;			# 0011
+y = 2;			# 0010
+s = x & y		# 0010
+
+x = 11;			# 1011
+y = 10;			# 1010
+s = x | y		# 1011
+s = x ^ y		# 0001
+
+t = 7;
+s = t >>= 2		# 0111 -> 0001
+
+t = 3;
+s = t <<= 2		# 0011 -> 1100
+```
+
+## Membership Operatorleri
+```python
+in				# Bir değerin içerisinde var mı
+not in			# Bir değerin içerisinde yok mu
+```
