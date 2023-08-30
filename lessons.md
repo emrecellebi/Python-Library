@@ -124,3 +124,21 @@ s = t <<= 2		# 0011 -> 1100
 in				# Bir değerin içerisinde var mı
 not in			# Bir değerin içerisinde yok mu
 ```
+
+## Veri Tipleri
+```python
+# Tipsiz veritipi
+x1 = None
+
+# Numeric Veri tipi
+x1 = 25			# int
+x1 = 3.14		# float
+x1 = True		# bool
+x1 = 3 + 5j		# complex
+
+# String halindeki veri tipleri
+x1 = (1,2,3,4,5) 	# Tuple bir veritipi içeriği değiştirilemez.
+z1 = "String data"; # String tipinde veri tipi.
+
+```
+
